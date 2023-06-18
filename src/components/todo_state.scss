@@ -1,0 +1,40 @@
+
+
+.pt-blue {
+    background-color: #59B4D1;
+}
+
+.pt-brown {
+    background-color: #D0935A;
+}
+
+.pt-purple {
+    background-color: #945AD1;
+}
+
+.pt-green {
+    background-color: #59D090;
+}
+
+.todo-state {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    .title-group {
+        color: white;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .todo-item {
+        background: #FFFFFF;
+        border-radius: 5px;
+        padding: 15px 10px;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+        font-weight: 400;
+    }
+}
